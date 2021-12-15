@@ -6,8 +6,8 @@ const send_mail = async (email, subject, content) => {
   let transporter = mailer.createTransport({
     service: "gmail",
     auth: {
-      user: process.env.MAILER_USERNAME,
-      pass: process.env.MAILER_password,
+      user: "tsatish086@gmail.com",
+      pass: "Satish123@",
     },
   });
 
